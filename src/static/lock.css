@@ -1,0 +1,15 @@
+.lock {
+  position: relative;
+  float: right;
+  bottom: 28px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.lock.visible {
+  opacity: 1;
+}
+
+.lock.locked {
+  opacity: 1;
+}
